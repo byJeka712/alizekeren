@@ -1,0 +1,1302 @@
+// bootstrap include
+@import 'bootstrap/stylesheets/bootstrap';
+//end bootstrap
+// fonts include
+
+// bloggerSans
+@font-face { 
+  font-family: 'bloggerSans'; 
+  src: url('../fonts/bloggerSans/BloggerSans.woff2') format('woff2'), 
+       url('../fonts/bloggerSans/BloggerSans.ttf')  format('truetype'),
+       url('../fonts/bloggerSans/BloggerSans.woff') format('woff'); 
+  font-weight: 400; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'bloggerSans'; 
+  src: url('../fonts/bloggerSans/BloggerSans-Italic.woff2') format('woff2'), 
+       url('../fonts/bloggerSans/BloggerSans-Italic.ttf')  format('truetype'),
+       url('../fonts/bloggerSans/BloggerSans-Italic.woff') format('woff'); 
+  font-weight: 400; 
+  font-style: italic; 
+}
+
+@font-face { 
+  font-family: 'bloggerSans'; 
+  src: url('../fonts/bloggerSans/BloggerSans-Light.woff2') format('woff2'), 
+       url('../fonts/bloggerSans/BloggerSans-Light.ttf')  format('truetype'),
+       url('../fonts/bloggerSans/BloggerSans-Light.woff') format('woff'); 
+  font-weight: 300; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'bloggerSans'; 
+  src: url('../fonts/bloggerSans/BloggerSans-LightItalic.woff2') format('woff2'), 
+       url('../fonts/bloggerSans/BloggerSans-LightItalic.ttf')  format('truetype'),
+       url('../fonts/bloggerSans/BloggerSans-LightItalic.woff') format('woff'); 
+  font-weight: 300; 
+  font-style: italic; 
+}
+
+@font-face { 
+  font-family: 'bloggerSans'; 
+  src: url('../fonts/bloggerSans/BloggerSans-Medium.woff2') format('woff2'), 
+       url('../fonts/bloggerSans/BloggerSans-Medium.ttf')  format('truetype'),
+       url('../fonts/bloggerSans/BloggerSans-Medium.woff') format('woff'); 
+  font-weight: 600; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'bloggerSans'; 
+  src: url('../fonts/bloggerSans/BloggerSans-MediumItalic.woff2') format('woff2'), 
+       url('../fonts/bloggerSans/BloggerSans-MediumItalic.ttf')  format('truetype'),
+       url('../fonts/bloggerSans/BloggerSans-MediumItalic.woff') format('woff'); 
+  font-weight: 600; 
+  font-style: italic; 
+}
+
+@font-face { 
+  font-family: 'bloggerSans'; 
+  src: url('../fonts/bloggerSans/BloggerSans-Bold.woff2') format('woff2'), 
+       url('../fonts/bloggerSans/BloggerSans-Bold.ttf')  format('truetype'),
+       url('../fonts/bloggerSans/BloggerSans-Bold.woff') format('woff'); 
+  font-weight: 700; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'bloggerSans'; 
+  src: url('../fonts/bloggerSans/BloggerSans-BoldItalic.woff2') format('woff2'), 
+       url('../fonts/bloggerSans/BloggerSans-BoldItalic.ttf')  format('truetype'),
+       url('../fonts/bloggerSans/BloggerSans-BoldItalic.woff') format('woff'); 
+  font-weight: 700; 
+  font-style: italic; 
+}
+//end bloggerSans
+
+// playfairDisplay
+@font-face { 
+  font-family: 'playfairDisplay'; 
+  src: url('../fonts/playfairDisplay/PlayfairDisplay-Regular.woff2') format('woff2'), 
+       url('../fonts/playfairDisplay/PlayfairDisplay-Regular.ttf')  format('truetype'),
+       url('../fonts/playfairDisplay/PlayfairDisplay-Regular.woff') format('woff'); 
+  font-weight: 400; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'playfairDisplay'; 
+  src: url('../fonts/playfairDisplay/PlayfairDisplay-Italic.woff2') format('woff2'), 
+       url('../fonts/playfairDisplay/PlayfairDisplay-Italic.ttf')  format('truetype'),
+       url('../fonts/playfairDisplay/PlayfairDisplay-Italic.woff') format('woff'); 
+  font-weight: 400; 
+  font-style: italic; 
+}
+
+@font-face { 
+  font-family: 'playfairDisplay'; 
+  src: url('../fonts/playfairDisplay/PlayfairDisplay-Bold.woff2') format('woff2'), 
+       url('../fonts/playfairDisplay/PlayfairDisplay-Bold.ttf')  format('truetype'),
+       url('../fonts/playfairDisplay/PlayfairDisplay-Bold.woff') format('woff'); 
+  font-weight: 700; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'playfairDisplay'; 
+  src: url('../fonts/playfairDisplay/PlayfairDisplay-BoldItalic.woff2') format('woff2'), 
+       url('../fonts/playfairDisplay/PlayfairDisplay-BoldItalic.ttf')  format('truetype'),
+       url('../fonts/playfairDisplay/PlayfairDisplay-BoldItalic.woff') format('woff'); 
+  font-weight: 700; 
+  font-style: italic; 
+}
+
+@font-face { 
+  font-family: 'playfairDisplay'; 
+  src: url('../fonts/playfairDisplay/PlayfairDisplay-Black.woff2') format('woff2'), 
+       url('../fonts/playfairDisplay/PlayfairDisplay-Black.ttf')  format('truetype'),
+       url('../fonts/playfairDisplay/PlayfairDisplay-Black.woff') format('woff'); 
+  font-weight: 900; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'playfairDisplay'; 
+  src: url('../fonts/playfairDisplay/PlayfairDisplay-BlackItalic.woff2') format('woff2'), 
+       url('../fonts/playfairDisplay/PlayfairDisplay-BlackItalic.ttf')  format('truetype'),
+       url('../fonts/playfairDisplay/PlayfairDisplay-BlackItalic.woff') format('woff'); 
+  font-weight: 900; 
+  font-style: italic; 
+}
+//end playfairDisplay
+
+// nymphette
+@font-face { 
+  font-family: 'Nymphette'; 
+  src: url('../fonts/nymphette/Nymphette.woff2') format('woff2'), 
+       url('../fonts/nymphette/Nymphette.ttf')  format('truetype'),
+       url('../fonts/nymphette/Nymphette.woff') format('woff'); 
+  font-weight: 400; 
+  font-style: normal; 
+}
+//end nymphette
+// lobster
+@font-face { 
+  font-family: 'lobster'; 
+  src: url('../fonts/lobster/Lobster.woff2') format('woff2'), 
+       url('../fonts/lobster/Lobster.ttf')  format('truetype'),
+       url('../fonts/lobster/Lobster.woff') format('woff'); 
+  font-weight: 400; 
+  font-style: normal; 
+}
+//end nymphette
+// end fonts include
+// variables
+$main_darkblue: #28374E;
+$second_darkblue: #1C164F;
+$third_darkblue: #374B7C;
+$main_red: #B51647;
+// end variables
+
+//universal classes
+.p0{
+	padding: 0;
+}
+
+button.main-blue{
+	text-transform: uppercase;
+	border: none;
+	background-color: $third_darkblue;
+	color: white;
+	font-family: 'bloggerSans';
+	font-weight: 600;
+	font-size: 16px;
+	padding: 5px;
+	border-radius: 10px;
+	&:hover{
+		background-color: #4f6caf;
+	}
+}
+button.buy{
+	text-transform: uppercase;
+	border: 1px #667599 solid;
+	background-color: inherit;
+	color: #667599;
+	font-family: 'bloggerSans';
+	font-weight: 600;
+	font-size: 14px;
+	padding: 5px;
+	border-radius: 10px;
+	background-image: url("../img/cart_blue.png");
+	background-repeat: no-repeat;
+	background-position: right 25px center;
+	background-size: 17px 15px;
+	padding-right: 40px;
+	width: 190px;
+	&:hover{
+		// background-color: #554d9b;
+	}
+}
+button.soc{
+	background-color: #282B5F;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 26px;
+	float: left;
+	color: white;
+	border: none;
+	margin-right: 10px;
+}
+.nice{
+	font-family: "Nymphette";
+	font-size: 36px;
+	padding-top: 5px;
+	padding-right: 10px;
+	vertical-align: top;
+}
+.breadcrumbs{
+	text-align: left;
+	a{
+		color: #282B5F;
+		font-size: 14px;
+		font-family: "bloggerSans";
+		font-weight: 300;
+	}
+}
+//end universal classes
+html{
+	body{
+		min-width: 350px;
+		header{
+			background-image: url("../img/header_bg.png");
+			background-size: cover;
+			background-position: top center;
+			.top{
+				min-height: 60px;
+				background-color: transparent;
+				font-family: "bloggerSans";
+				font-weight: 300;
+				color: white;
+				font-size: 20px;
+				@media(max-width: $screen-md){
+					padding-bottom: 20px;
+				}
+				.container{
+					padding-top: 15px;
+					.lang{
+						float: left;
+						ul{
+							padding-left: 0;
+							li{
+								display: inline-block;
+								float: left;
+								padding-right: 5px;
+								a{
+									color: white
+								}
+							}
+						}
+					}
+					.search{
+						@media(max-width: 450px){
+							display: none;
+						}
+						float: right;
+						input{
+							background-color: white;
+							height: 20px;
+							width: 130px;
+							border: 1px $second_darkblue solid;
+							border-radius: 20px;
+							background-image: url("../img/find.png");
+							background-position: 100px center;
+							background-size: 15px auto;
+							background-repeat: no-repeat;
+							color: $second_darkblue;
+							font-size: 14px;
+							padding: 0 30px 0 10px;
+						}
+						input:focus, input:active{
+							outline: none;
+						}
+					}
+					.contacts{
+						@media(max-width: 450px){
+							padding-right: 40px;
+						}
+						float: right;
+						padding-right: 20px;
+						a{
+							color: white;
+						}
+					}
+					.cart{
+						@media(max-width: $screen-md){
+							padding-right: 0;
+							width: 25px;
+							margin-top: 15px;
+						}
+						@media(max-width: 450px){
+							position: absolute;
+							top:0;
+							right: 20px;
+						}
+						float: right;
+						padding-right: 20px;
+						background-image: url("../img/cart.png");
+						height: 28px;
+						width: 50px;
+						background-repeat: no-repeat;
+						background-size: 22px auto;
+						background-position: left center;	
+						cursor: pointer;
+					}
+					.login{
+						@media(max-width: $screen-md){
+							padding-top: 15px;
+						}
+						@media(max-width: 450px){
+							width: 100%;
+							text-align: center;
+							padding-right: 0;
+						}
+						float: right;
+						padding-right: 10px;
+						a{
+							color: white;
+							padding: 0 5px;
+						}
+					}
+					.arch{
+						@media(max-width: $screen-md){
+							float:left;
+							padding-top: 15px;
+						}
+						@media(max-width: 450px){
+							width: 100%;
+							text-align: center;
+							padding-right: 0;
+						}
+						float: right;
+						padding-right: 20px;
+						div{
+							background-color: white;
+							height: 28px;
+							width: 28px;
+							border-radius: 14px;
+							display: inline-block;
+							vertical-align: top;
+							cursor: pointer;
+						}
+					}
+				}
+			}
+			.main{
+				background-color: transparent;
+				min-height: 95px;
+				@media(max-width: $screen-md){
+					min-height: 0;
+				}
+				.container{
+					padding-top: 10px;
+					@media(max-width: $screen-sm){
+						position: relative;
+					}
+					.logo{
+						padding-left: 50px;
+						float: left;
+						max-width: 165px;
+						@media(max-width: $screen-md){
+							padding-left: 0;
+							max-width: 100px;
+						}
+						@media(max-width: $screen-sm){
+							position: absolute;
+						}
+					}
+					.caption{
+						float: left;
+						color: white;
+						font-family: "bloggerSans";
+						font-weight: 400;
+						font-size: 18px;
+						-webkit-transform:scale(1.3, 1.0);
+						-moz-transform:scale(1.3, 1.0);
+						-ms-transform:scale(1.3, 1.0);
+						-o-transform:scale(1.3, 1.0);
+						transform:scale(1.3,1.0);
+						padding-left: 25px;
+						padding-right: 35px;
+					}
+					.name{
+						float: left;
+						padding-left: 40px;
+						@media(max-width: $screen-lg){
+							float:left;
+						}
+						@media(max-width: $screen-sm){
+							padding-left: 110px;
+						}
+						h1{
+							@media(max-width: $screen-xs){
+								// font-size: 30px;	
+							}
+							@media(max-width: $screen-md){
+								margin-top: 10px;
+							}
+							@media(max-width: $screen-lg){
+								margin-top: 0;
+							}
+							font-size: 32px;
+							font-family: "playfairDisplay";
+							font-weight: bold;
+							color: white;
+							display: block;
+							margin-bottom: 0;
+							margin-top: 35px;
+						}
+					}
+					.deviz{
+						float: right;
+						@media(max-width: 500px){
+								font-size: 20px;	
+							}
+						@media(max-width: $screen-lg){
+							float:left;
+							padding-left: 40px;
+						}
+						@media(max-width: $screen-sm){
+							padding-left: 110px;
+						}
+						h2{
+							@media(max-width: $screen-lg){
+								margin-top: 0;
+								width: 100%;
+							}
+							padding-bottom: 10px;
+							font-family: "lobster";
+							font-size: 24px;
+							color: white;
+							display: block;
+							margin-bottom: 0;
+							margin-top: 43px;
+						}
+					}
+				}
+			}
+			nav.navbar{
+				border: none;
+				background-color: white;
+				.container{
+					.navbar-header{
+						.navbar-toggle{
+							border:none;
+							margin-top: 15px;
+							&:hover, &:active, &:focus{
+								background-color: inherit;	
+							}
+							.icon-bar{
+								background-color: $third_darkblue;
+								width: 30px;
+								height: 4px;
+							}
+						}
+					}
+					.navbar-collapse{
+						ul{
+							@media(max-width: $screen-sm){
+									padding-right: 0;
+									padding-left: 20px;
+								}
+							li{
+								text-align: left;
+								width: 12.5%;
+								@media(max-width: $screen-lg){
+									width: 25%;
+								}
+								@media(max-width: $screen-sm){
+									width: 100%;
+									padding-top: 10px;
+								}
+								a{
+									color: $third_darkblue;
+									font-family: "bloggerSans";
+									font-weight: 600;
+									font-size: 19px;
+									padding-left: 0;
+									padding-right: 0;
+									@media(max-width: $screen-lg){
+										padding: 0;
+										padding-bottom: 5px;
+										padding-top: 5px
+									}
+								}
+								.icon{
+									float: right;
+								    height: 6px;
+								    width: 8px;
+								    background-image: url(../img/icon_down.png);
+								    background-repeat: no-repeat;
+								    background-size: 8px 14px;
+								    display: block;
+								    position: absolute;
+								    top:25px;
+								    right: 0;
+								    background-position: 0 -8px;
+								}
+							}
+							li.active{
+								a{
+									background-color: inherit;
+									color: #322D26;
+								}
+								.icon{
+									background-position: 0 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.content{
+			border-bottom: 15px #8E95B8 solid;
+			@media(max-width: $screen-sm){
+				padding: 0;
+			}
+			.container{
+				a:hover{
+					color: #6783bf!important;
+				}
+				.main{
+					padding-right: 40px;
+					@media(max-width: $screen-sm){
+						padding-right: 10px;
+					}
+					.block-player{
+						padding-bottom: 40px;
+						border-bottom: 15px #8E95B8 solid;
+						.caption{
+							color: $main_red;
+							.caption-wrap{
+								h3{
+									font-family: "playfairDisplay";
+									font-weight: 900;
+									font-size: 31px;
+									margin-bottom: 0;
+									@media(max-width: $screen-xs){
+										font-size: 26px;
+									}
+									@media(max-width: 400px){
+										font-size: 21px;
+									}
+									.nice{
+										font-family: "Nymphette";
+										font-size: 36px;
+										padding-top: 5px;
+										padding-right: 10px;
+										vertical-align: top;
+									}
+								}
+								h4{
+									color: #4C4C4C;
+									font-size: 20px;
+									font-family: "bloggerSans";
+									font-weight: 600;
+									color: #4C4C4C;
+									margin-top: 0;
+									margin-bottom: 20px;
+								}
+							}
+							.button-wrap{
+								button{
+									margin-top: 30px;
+									width: 100%;
+								}
+							}
+							.button-wrap.col-lg-4{
+								padding-right: 0;
+								padding-left: 30px;
+							}
+						}
+						.player{
+							max-height: 400px;
+							img{
+								width: 100%;
+								cursor: pointer;
+							}
+						}
+						.list{
+							padding-right: 0;
+							padding-left: 40px;
+							@media(max-width: $screen-md){
+								padding-left: 0;
+							}
+							ul{
+								padding-top: 20px;
+								list-style: none;
+								padding-left: 0;
+								padding-right: 0;
+								&.desc{
+									line-height: 24px;
+									li{
+										padding-bottom: 0;
+										border-bottom: none;
+									}
+								}
+								li{
+									font-family: 'bloggerSans';
+									font-weight: 400;
+									font-style: italic;
+									font-size: 20px;
+									a{
+										color:#374B7C;
+									}
+									padding: 10px 0;
+									border-bottom: 1px #CCCCCC dashed;
+									&:first-child{
+										padding-top: 0;
+									}
+									&:last-child{
+										border-bottom: none;
+									}
+									p.top{
+										margin: 0;
+									}
+									p.bottom{
+										color: #4C4C4C;
+										font-family: 'bloggerSans';
+										font-weight: 300;
+										font-style: normal;
+									}
+								}
+							}
+						}
+						&.our-cd{
+							border-bottom: none;
+							.cds{
+								padding-top: 20px;
+								.cd{
+									text-align: center;
+									padding-right: 10px;
+									padding-left: 10px;
+									max-width: 300px;
+									margin: 0 auto;
+									@media(max-width: $screen-md){
+										padding-bottom: 20px;
+									}
+									img{
+										width: 100%;
+									}
+									.name{
+										font-family: 'bloggerSans';
+										font-weight: 300;
+										font-style: normal;
+										font-size: 18px;
+										color: #4C4C4C;
+										padding-top: 10px;
+									}
+									button{
+										margin-top: 10px;
+									}
+								}
+							}
+						}
+						div.soc{
+							padding-top: 15px;
+							@media(max-width: $screen-sm){
+								margin-top: 10px;
+								
+							}
+
+						}
+					}
+				}
+				.main.music_articles{
+					padding-bottom: 30px;
+					.caption{
+						text-align: center;
+						color: $main_red;
+						font-family: "playfairDisplay";
+						font-weight: 700;
+						font-size: 31px;
+					}
+					.quote{
+						text-align: right;
+						color: $main_red;
+						font-family: "bloggerSans";
+						font-weight: 300;
+						font-size: 20px;
+						font-style: italic;
+					}
+					.subcats{
+						.subcat{
+							padding-top: 15px;
+							.fish{
+								background-color: #4A3C6F;
+								border-radius: 20px;
+								padding: 15px;
+								max-width: 250px;
+								margin: 0 auto;
+								float: none;
+							}
+							.caption{
+								float: none;
+								a{
+									color: #333333;
+									font-family: "bloggerSans";
+									font-weight: 300;
+									font-size: 18px;
+								}
+							}
+						}
+					}
+					.articles{
+						padding-top: 30px;
+						&:not(:last-child){
+							border-bottom: 1px #CCCCCC dashed;
+						}
+						.cat{
+							.caption{
+								h3{
+									text-align: left;
+									color: $main_red;
+									font-family: "playfairDisplay";
+									font-weight: 700;
+									font-size: 24px;
+								}
+							}
+						}
+						.articles-list{
+							padding-bottom: 20px;
+							.autor{
+								color: #333333;
+								font-family: "bloggerSans";
+								font-size: 18px;
+							}
+							ul{
+								list-style: none;
+								padding-left: 0;
+								li{
+									a{
+										color: #212362;
+										font-family: "bloggerSans";
+										font-size: 18px;
+										font-style: italic;
+									}
+								}
+							}
+						}
+					}
+				}
+				.main.concerts_violin{
+						.bold, .name{
+							font-weight: 700;
+						}
+						.text{
+							color: #333333;
+							font-family: "bloggerSans";
+							font-weight: 400;
+							font-size: 18px;
+							padding: 30px 0;
+						}
+					.caption{
+						h3{
+							text-align: left;
+							color: $main_red;
+							font-family: "playfairDisplay";
+							font-weight: 700;
+							font-size: 24px;
+						}
+						.description{
+							color: #333333;
+							font-family: "bloggerSans";
+							font-weight: 600;
+							font-size: 20px;
+						}
+					}
+					.concerts{
+						table{
+							text-align: center;
+							thead{
+								background-color: #6D76A3;
+								color: white;
+								font-family: "playfairDisplay";
+								font-weight: 700;
+								font-size: 18px;
+								th{
+									text-align: center;
+									border: 1px dashed #B2B2B2;
+									padding: 10px;
+								}
+							}
+							tbody{
+								font-family: "bloggerSans";
+								font-weight: 400;
+								font-size: 18px;
+								tr{
+									&.forSmall{
+										border-bottom: 4px darkgray solid;
+									}
+									td{
+										text-align: center;
+										border: 1px dashed #B2B2B2;
+										padding: 10px;
+										&.forSmall{
+											background-color: #6D76A3;
+											color: white;
+										}
+									}
+								}
+							}
+						}
+					}
+					.keren_aliza{
+						table{
+							text-align: center;
+							thead{
+								background-color: #6D76A3;
+								color: white;
+								font-family: "playfairDisplay";
+								font-weight: 700;
+								font-size: 18px;
+								th{
+									text-align: center;
+									border: 1px dashed #B2B2B2;
+									padding: 10px;
+								}
+							}
+							tbody{
+								tr{
+									&.forSmall{
+										border-bottom: 4px darkgray solid;
+									}
+									td{
+										text-align: center;
+										border: 1px dashed #B2B2B2;
+										padding: 10px;
+										&.description{
+											max-width: 250px;
+										}
+										img{
+											float: left;
+											max-width: 200px;
+										}
+										.participants{
+											float: left;
+										}
+										ul{
+											list-style: none;
+											float: left;
+											padding-left: 0;
+											li{
+												text-align: left;
+												color: #333333;
+												font-family: "bloggerSans";
+												font-weight: 600;
+												font-size: 18px;
+												word-wrap: break-word;
+											}
+										}
+										&.forSmall{
+											background-color: #6D76A3;
+											color: white;
+										}
+									}
+								}
+							}
+						}
+					}
+					.video-reviews{
+						border-top: 1px #CCCCCC dashed;	
+						padding-bottom: 20px;
+						.reviews{
+							.caption{
+								color: #212362;
+								font-family: "bloggerSans";
+								font-weight: 400;
+								font-size: 20px;
+								font-style: italic;
+							}
+							.videos{
+								padding-top: 20px;
+								.video{
+									cursor: pointer;
+									@media(max-width: $screen-md){
+										float: none;
+										padding-bottom: 20px;
+										img{
+											float: none;
+										}
+									}
+								}
+							}
+						}
+					}
+					.block-player{
+						padding-top: 20px;
+						border-top: 1px #CCCCCC dashed;
+						border-bottom: none;
+					}
+				}
+				.sidebar{
+					border-left: 1px #CCCCCC dashed;
+					padding-left: 30px;
+					@media(max-width: $screen-md){
+						padding-left: 20px;
+					}
+					.news{
+						text-align: center;
+						.caption{
+							text-align: left;
+							color: $main_red;
+							font-family: "playfairDisplay";
+							font-weight: 900;
+							font-size: 31px;
+							padding-top: 20px;
+						}
+						.news_item{
+							text-align: left;
+							padding-top: 10px;
+							.date{
+								color: #6D6E70;
+								font-family: 'bloggerSans';
+								font-weight: 700;
+								font-size: 18px;
+								margin-bottom: 0;
+							}
+							.text{
+								font-family: "bloggerSans";
+								font-weight: 400;
+								font-size: 16px;
+								font-style: italic;
+								a{
+									color: $third_darkblue;
+								}
+
+							}
+						}
+						button{
+							width: 150px;
+							margin-top: 10px;
+						}
+						p{
+							font-family: "Nymphette";
+							font-size: 32px;
+							padding-top: 5px;
+							font-weight: 700;
+							color: $third_darkblue;
+						}
+						form.subscribe{
+							.caption{
+								text-align: center;
+								color: $main_red;
+								font-family: "playfairDisplay";
+								font-weight: 900;
+								font-size: 19px;
+								padding-top: 0;
+								padding-bottom: 20px;
+							}
+							.form-group{
+								input{
+									width: 200px;
+									margin: 0 auto;
+									border-radius: 10px;
+								}
+							}
+						}
+					}
+					.cats{
+						.cat{
+							padding-top: 30px;
+							.caption{
+								
+								color: $main_red;
+								font-family: "playfairDisplay";
+								font-weight: 900;
+								font-size: 19px;
+								padding-top: 0;
+								padding-bottom: 20px;
+							}
+							.articles{
+								list-style: none;
+								padding-left: 0;
+								li{
+									padding: 5px 0;
+									font-family: "bloggerSans";
+									font-weight: 400;
+									font-size: 18px;
+									font-style: normal;
+									border-bottom: 1px #CCCCCC dashed;
+									a{
+										color: $third_darkblue;	
+									}
+								}
+							}
+							&.single{
+								padding-top: 0;
+								.caption{
+									padding-top: 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.bottom-content{
+			background-color: #E2E1DB;
+			padding-bottom: 30px;
+			.main{
+				min-height: 170px;
+				@media(max-width: $screen-md){
+					padding-bottom: 20px;
+				}
+				.container{
+					padding-top: 50px;
+					.logo{
+						float: left;
+						.logo-fish{
+							background-color: white;
+							height: 90px;
+							width: 75px;
+							text-align: center;
+							padding-top: 20px;
+						}
+					}
+					.caption{
+						float: left;
+						color: #0A0A4D;
+						font-family: "bloggerSans";
+						font-weight: 400;
+						font-size: 22px;
+						padding-left: 25px;
+						padding-right: 35px;
+					}
+					.name{
+						float: left;
+						h1{
+							font-size: 32px;
+							font-family: "playfairDisplay";
+							font-weight: bold;
+							color: #0A0A4D;
+							display: block;
+							margin-bottom: 0;
+							margin-top: 50px;
+							@media(max-width: $screen-lg){
+								margin-top: 30px;
+							}
+							@media(max-width: $screen-xs){
+								
+							}
+						}
+					}
+					.deviz{
+						float: left;
+						h2{
+							font-family: "bloggerSans";
+							font-size: 22px;
+							color: #0A0A4D;
+							display: block;
+							margin-bottom: 0;
+							margin-top: 60px;
+							padding-left: 25px;
+							@media(max-width: $screen-lg){
+								margin-top: 0;
+								padding-left: 0;
+							}
+						}
+					}
+				}
+			}
+			.alize{
+				.container{
+					.left{
+						background-color: #8E95B8;
+						border-radius: 10px;
+						padding-top: 30px;
+						padding-bottom: 30px;
+						@media(max-width: $screen-sm){
+							text-align: center;
+						}
+						.squares{
+							@media(max-width: $screen-sm){
+								float: none;
+								margin: 0 auto;
+							}
+							@media(max-width: $screen-xs){
+								padding: 5px;
+							}
+							padding-left: 30px;
+							max-width: 200px;
+							margin: 0 auto;
+							.square{
+								padding: 5px;
+								cursor: pointer;
+								.white{
+									background-color: white;
+								}
+							}
+						}
+						.about{
+							@media(max-width: $screen-xs){
+								padding: 5px;
+							}
+							padding-left: 30px;
+							.caption{
+								font-family: "playfairDisplay";
+								font-weight: bold;
+								color: white;
+								font-size: 21px;
+								font-weight: bold;
+								padding-top: 15px;
+							}
+							.articles{
+								padding-top: 10px;
+								ul{
+									@media(max-width: $screen-xs){
+										padding: 0;
+									}
+									list-style: none;
+									padding-left: 0;
+									li{
+									font-family: "bloggerSans";
+									font-size: 21px;
+									font-weight: 300;
+									line-height: 26px;
+										a{
+											color: white;
+										}
+									}
+								}
+							}
+						}
+					}
+					.right{
+						padding-left: 150px;
+						@media(max-width: $screen-lg){
+							padding-left: 50px;
+						}
+						@media(max-width: $screen-md){
+							padding-left: 0;
+						}
+						.search{
+							float: right;
+							@media(max-width: $screen-md){
+								text-align: center;
+								padding-top: 20px;
+							}
+							input{
+								background-color: white;
+								height: 20px;
+								width: 100%;
+								border: 1px $second_darkblue solid;
+								border-radius: 20px;
+								background-image: url("../img/find.png");
+								background-position: right 10px center;
+								background-size: 15px auto;
+								background-repeat: no-repeat;
+								color: $second_darkblue;
+								font-size: 14px;
+								padding: 0 30px 0 10px;
+								max-width: 300px;
+								@media(max-width: $screen-md){
+									margin: 0 auto;
+								}
+							}
+							input:focus, input:active{
+								outline: none;
+							}
+						}
+						p{
+							font-family: "Nymphette";
+							font-size: 32px;
+							padding-top: 5px;
+							font-weight: 700;
+							color: $third_darkblue;
+							text-align: center;
+							line-height: 26px;
+							margin-bottom: 0;
+						}
+						form.subscribe{
+							text-align: center;
+							.caption{
+								text-align: center;
+								color: $main_red;
+								font-family: "playfairDisplay";
+								font-weight: 900;
+								font-size: 19px;
+								padding-top: 0;
+								padding-bottom: 20px;
+							}
+							.form-group{
+								input{
+									width: 200px;
+									margin: 0 auto;
+									border-radius: 10px;
+								}
+								button{
+									width: 150px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		footer{
+			background-color: #E2E1DB;
+			.container{
+				border-top: 1px #4C4C4C dashed;
+				margin-bottom: 20px;
+				.line{
+					margin-top: 30px;
+					@media(max-width: $screen-md){
+						margin-top: 0;
+					}
+					.block{
+						border-right: 1px #4C4C4C dashed;
+						&:not(:first-child){
+							padding-left: 30px;
+						}
+						&:last-child{
+							border-right: none;
+						}
+						@media(max-width: $screen-md){
+							padding-left: 20px;
+							&:not(:first-child){
+								padding-left: 20px;
+							}
+							&:nth-child(even){
+								border-right: none;
+							}
+						}
+						@media(max-width: $screen-sm){
+							border:none;
+							text-align: left;
+							padding-left: 20px;
+						}
+						@media(max-width: $screen-xs){
+							padding-left: 20px;
+						}
+						p{
+							font-family: "Nymphette";
+							font-size: 32px;
+							padding-top: 5px;
+							font-weight: 700;
+							color: #0A0A4D;	
+						}
+						ul{
+							list-style: none;
+							padding-left: 0;
+							li{
+								font-family: "bloggerSans";
+								font-weight: 300;
+								font-size: 18px;
+								a{
+									color: black;
+								}
+								.round{
+									height: 34px;
+									width: 34px;
+									border: 1px #0A0A4D solid;
+									border-radius: 17px;
+									margin-bottom: 5px;
+								}
+								&.cat{
+									font-family: "bloggerSans";
+									font-weight: 400;
+									font-size: 20px;
+									padding-bottom: 10px;
+									a{
+										color: #0A0A4D;			
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.copyright{
+				background-color: #CCCCCC;
+				.container{
+					@media(max-width: $screen-sm){
+						font-size: 12px;
+					}
+					margin-bottom: 0;
+					border-top: none;
+					padding: 20px 0;
+					text-align: center;
+					font-family: "bloggerSans";
+					font-weight: 300;
+					font-size: 18px;
+					font-style: normal;
+					color: #0A0A4D;
+				}
+			}
+		}
+	}
+}
